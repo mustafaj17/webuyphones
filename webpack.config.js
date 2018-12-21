@@ -49,7 +49,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({template: './frontend/index.html'}),
         new MiniCssExtractPlugin({
             filename: "styles.css"
         })
